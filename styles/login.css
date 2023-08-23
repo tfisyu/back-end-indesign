@@ -1,0 +1,140 @@
+@import url(./header-footer.css);
+
+:root{
+    --green: #C6F608;
+}
+
+#main_section_login {
+    height: 60vh;
+    margin-top: 48px;
+    margin-bottom: 90px;
+    justify-content: space-evenly;
+    padding: 0px 100px;
+    display: flex;
+}
+/* LOGIN */
+
+#login-container {
+    border: 1px solid var(--font-color);
+    box-shadow: 10px 12px var(--green);
+    border-radius: 14px;
+    background-color: #FFF;
+    width: 18%;
+    overflow: hidden;
+}
+
+.titulo_login_cadastro {
+    font-size: 27px;
+    text-align: center;
+    margin-top: 23%;
+    margin-bottom: 17%;
+}
+
+.login_form1 {
+    margin-bottom: 25%;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.login_form1 input {
+    font-size: 16px;
+    margin-right: 20px;
+    padding: .3rem .5rem;
+    border: 1px solid var(--font-color);
+    border-radius: 8px;
+    outline-color: var(--green);
+}
+
+.login_form1 span{
+    color: var(--green);
+    font-size: 14px;
+}
+
+.botao-login {
+    background-color: var(--green);
+    width: 30%;
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: var(--font-color);
+    font-size: 18px;
+    transition: 0.3s ease;
+    border: none;
+}
+
+.botao-login:hover {
+   background-color: var(--purple);
+   color: #FFF;
+}
+
+/* CADASTRO */
+
+#cadastro-container {
+    overflow: hidden;
+    border: 1px solid var(--font-color);
+    box-shadow: 10px 12px var(--purple);
+    border-radius: 14px;
+    background-color: #FFF;
+    width: 37%;
+}
+
+.cadastro_form1 {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 1rem;
+}
+
+.cadastro_form1 input {
+    font-size: 16px;
+    margin-right: 20px;
+    padding: .3rem .5rem;
+    border: 1px solid var(--font-color);
+    border-radius: 8px;
+    outline-color: var(--purple);
+}
+
+.cadastro_form1 span{
+    color: var(--purple);
+    font-size: 14px;
+}
+
+.titulo_cadastro_cadastro {
+    font-size: 27px;
+    text-align: center;
+    margin: 8% 0 4% 0;
+    color: var(--font-color);
+}
+
+.botao{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.botao-cadastro {
+    background-color: var(--purple);
+    width: 30%;
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 18px;
+    transition: 0.3s ease;
+    border: none;
+}
+
+.botao-cadastro:hover {
+   background-color: var(--green);
+   color: var(--font-color);
+}
+
+.inputs{
+    margin-bottom: 1rem;
+}
+
+.span-required{
+    color: red !important;
+    display: none;
+    font-size: 12px !important;
+}

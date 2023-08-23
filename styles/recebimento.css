@@ -1,0 +1,39 @@
+@import url(./header-footer.css);
+@import url(./cobranca.css);
+
+.box-recebimento{
+    width: 51.725rem;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid var(--transparent-blue);
+    height: 52vh;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    color: var(--font-color);
+}
+
+.titulos-recebimento h1{
+    margin-bottom: 1rem;
+}
+
+.dados-recebimento{
+    padding: 2rem 0 2rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
+}
+
+.dado{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    grid-row-gap: 4px;
+    grid-column-gap: 10px;
+}
+
+.dado-img{
+    grid-column: 1;
+    grid-row: 1 / 5;
+}

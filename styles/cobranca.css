@@ -1,0 +1,34 @@
+@import url(../styles/header-footer.css);
+@import url(../styles/perfil.css);
+@import url(../styles/decoracoes.css);
+
+.box6{
+    width: 51.725rem;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid var(--transparent-blue);
+    height: 52vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.enderecos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 40px;
+
+}
+
+.enderecos p{
+    font-weight: 700;
+}
+
+.edit{
+    padding: 10px 25px;
+    background-color: var(--purple);
+    border: none;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 13px;
+    letter-spacing: .3mm;
+}

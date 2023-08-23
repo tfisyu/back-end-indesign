@@ -1,0 +1,173 @@
+:root{
+    --font-family: 'Barlow', sans-serif;
+    --font-color: rgba(41, 55, 76, 1);
+    --purple: rgba(95, 48, 249, 1);
+    --bg-color: rgba(232, 232, 232, 1);
+    --transparent-blue: #29374CCC;
+    --green: #C6F608;
+}
+
+/* HEADER */
+
+* {
+    margin: 0px;
+    font-family: var(--font-family);
+    text-decoration: none;
+}
+
+body {
+    background-size: cover;
+    background: url(/inDesign/img/Desktop\ -\ 1.png) repeat fixed center;
+}
+
+header{ 
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.a_header {
+    transition: 0.3s ease;
+    text-decoration: none;
+    color: var(--font-color);
+    font-size: 20px;
+}
+
+a{
+    color: var(--font-color);
+}
+
+.active{
+    color: var(--purple);
+}
+
+header a:hover{
+    color: var(--purple);
+}
+
+.container {
+    width: 20%;
+    min-height: 50px;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 700px;
+    background: rgb(244, 244, 244);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 7px 16px 8px 15px;
+    
+}
+
+.search-bar input {
+    background-color:  transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 1px 10px;
+    color:rgb(58, 58, 58);
+    font-size: 14px;
+}
+
+::placeholder {
+    color:rgb(119, 119, 119);
+}
+
+.header-login {
+    background-color: rgba(216, 216, 216, 1);
+    display: flex;
+    justify-content: end;
+    padding: 0.3%;
+}
+
+._2header_p {
+    color: var(--font-color);
+    margin-right: 3%;
+    transition: 0.3s ease;
+}
+
+._2header_p:hover{
+    margin-right: 3%;
+    color: var(--purple);
+}
+
+.search-bar button img {
+    width: 30px;
+}
+
+.search-bar button {
+    border: 0px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* FECHA HEADER */
+
+/* FOOTER  */
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(233, 233, 233);
+    padding: 32px;
+}
+
+.img_footer{
+    height: 45px;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin: 16px 0 0 8px;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+}
+
+.side a, .side p{
+    color: var(--font-color);
+}
+
+.side a:hover{
+    color: var(--purple);
+}
+
+.side h2{
+    margin-bottom: 16px;
+    font-size: 20px;
+    color: var(--purple);
+}
+
+.zap{
+    height: 40px;
+}
+
+.img-span{
+    display: flex;
+    margin-bottom: 8px;
+    align-items: center;
+    color: var(--font-color);
+    gap: 8px;
+    font-size: 25px;
+}
+
+
+/* FECHA FOOTER */

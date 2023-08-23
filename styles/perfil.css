@@ -1,0 +1,112 @@
+@import url(./header-footer.css);
+
+*{
+    color: var(--font-color);
+}
+
+.profile-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    border: 1px solid #000;
+    margin: 5.6rem 20rem;
+    padding: 1rem 0;
+    box-shadow: 10px 12px var(--green);
+    border-radius: 14px;
+    background-color: #FFF;
+    min-height: 57vh;
+    overflow: hidden;
+}
+
+.box1{
+    width: 15vw;
+}
+
+.box2{
+    width: 22.4375rem;
+    text-align: center;
+    font-weight: 700;
+    border-right: 1px solid var(--transparent-blue);
+    border-left: 1px solid var(--transparent-blue);
+    padding: 0 50px;
+    height: 52vh;
+}
+
+.box2 p{
+    margin-left: 1rem;
+    color: #29374CCC;
+}
+
+.box3{
+    width: 20rem;
+    text-align: center;
+}
+
+.user{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-weight: 700;
+    color: var(--transparent-blue);
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.opcoes{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.box1 > .opcoes a{
+    font-weight: 600;
+    letter-spacing: .4mm;
+    margin-left: 10px;
+}
+
+.opcoes a:hover{
+    color: var(--purple);
+}
+
+.cadeado{
+    margin-left: 7px;
+}
+
+h1{
+    font-size: 26px;
+    letter-spacing: .6mm;
+    font-weight: 500;
+}
+
+.alterar-dados{
+    padding: 10px 25px;
+    background-color: var(--purple);
+    border: none;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 13px;
+    letter-spacing: .3mm;
+    margin-top: 4rem;
+}
+
+.alterar-dados:hover{
+    cursor: pointer;
+}
+
+.estilo{
+    margin: 12px 0;
+    letter-spacing: .9mm;
+}
+
+.meu-perfil{
+    margin-bottom: 5rem;
+}
+
+.meu-estilo{
+    position: relative;
+    top: -3.1rem;
+}
